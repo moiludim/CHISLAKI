@@ -2,8 +2,8 @@
 #include <vector>
 class Integration_Scheme{
     protected:
-        std::vector<Point> points;
-        std::vector<double> weights;
+        std::vector<Point> Points;
+        std::vector<double> Weights;
     public:
     enum Integration_Scheme_Type{
         Gauss_1,
@@ -13,4 +13,4 @@ class Integration_Scheme{
         Simpson,
         Trapezoidal,
     };       
-}
+};
